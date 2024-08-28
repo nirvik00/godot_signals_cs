@@ -1,0 +1,33 @@
+[gd_scene load_steps=3 format=3 uid="uid://dvr1y2d8au8qv"]
+
+[ext_resource type="Script" path="res://main.cs" id="1_oqtuj"]
+[ext_resource type="PackedScene" uid="uid://dqrtndxshqv52" path="res://receiver.tscn" id="2_onwj0"]
+
+[node name="Main" type="Node2D"]
+script = ExtResource("1_oqtuj")
+
+[node name="Button" type="Button" parent="."]
+offset_left = 54.0
+offset_top = 27.0
+offset_right = 144.0
+offset_bottom = 58.0
+text = "from main
+"
+
+[node name="Label" type="Label" parent="."]
+offset_left = 55.0
+offset_top = 81.0
+offset_right = 100.0
+offset_bottom = 104.0
+text = "count"
+
+[node name="Label2" type="Label" parent="."]
+offset_left = 124.0
+offset_top = 79.0
+offset_right = 164.0
+offset_bottom = 102.0
+text = "0"
+
+[node name="Receiver" parent="." instance=ExtResource("2_onwj0")]
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]

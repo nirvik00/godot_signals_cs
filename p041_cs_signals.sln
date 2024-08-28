@@ -1,0 +1,19 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "p041_cs_signals", "p041_cs_signals.csproj", "{58B37872-6B6B-4304-BF49-9B7E0C887CEE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+	Debug|Any CPU = Debug|Any CPU
+	ExportDebug|Any CPU = ExportDebug|Any CPU
+	ExportRelease|Any CPU = ExportRelease|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58B37872-6B6B-4304-BF49-9B7E0C887CEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58B37872-6B6B-4304-BF49-9B7E0C887CEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58B37872-6B6B-4304-BF49-9B7E0C887CEE}.ExportDebug|Any CPU.ActiveCfg = ExportDebug|Any CPU
+		{58B37872-6B6B-4304-BF49-9B7E0C887CEE}.ExportDebug|Any CPU.Build.0 = ExportDebug|Any CPU
+		{58B37872-6B6B-4304-BF49-9B7E0C887CEE}.ExportRelease|Any CPU.ActiveCfg = ExportRelease|Any CPU
+		{58B37872-6B6B-4304-BF49-9B7E0C887CEE}.ExportRelease|Any CPU.Build.0 = ExportRelease|Any CPU
+	EndGlobalSection
+EndGlobal
